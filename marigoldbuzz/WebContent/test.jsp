@@ -2,7 +2,7 @@
 <body><!--  reference: http://www.codeproject.com/Articles/762201/Adjusting-your-websites-to-fit-all-types-of-resolu -->
         <div class="Container">
             <header>
-                <span>Adjustable WebSite Example using HTML5 CSS3 </span>
+                <span>MarygoldBuzz - Tours of India</span>
              </header>
        <div id="wrapper">
     <nav>
