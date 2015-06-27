@@ -3,7 +3,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="http://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css"/>
+    <script src="js/jquery-1.11.3.min.js"></script>
+	<script>
+	$(function () {
+        $("#slideshow > div:gt(0)").hide();
+
+        setInterval(function () {
+            $('#slideshow > div:first')
+                    .fadeOut(1000)
+                    .next()
+                    .fadeIn(1000)
+                    .end()
+                    .appendTo('#slideshow');
+        }, 5000);
+
+    });
+	function slideSwitch() {
+        var $active = $('div#desImage IMG.active');
+        var $next = $active.next();    
+        $next.addClass('active');
+        $active.removeClass('active');
+    }
+    $(function() {
+        setInterval( "slideSwitch()", 5000 );
+    });
+	</script>
+	<link href="http://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css"/>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>MarigoldBuzz.com</title>
