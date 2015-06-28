@@ -26,10 +26,12 @@
     		var $next = $active.next();
             $('#slider > div:first')
             		$active = $('div#slider img.active');
-                    $active.fadeIn(1000)
-                    $next.addClass('active');
+                    $active.hide();
+                    $next.fadeIn(1000);
                     $active.appendTo('#slider');
-        			$active.removeClass('active');
+                    $active.removeClass('active');
+                    $next.addClass('active');
+        			
         }, 4000);
 
     });
