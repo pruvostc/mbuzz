@@ -18,6 +18,21 @@
         }, 5000);
 
     });
+	$(function () {
+        $("#slider > img:gt(0)").hide();
+		 
+        setInterval(function () {  	
+        	var $active = $('div#slider img.active');
+    		var $next = $active.next();
+            $('#slider > div:first')
+            		$active = $('div#slider img.active');
+                    $active.fadeIn(1000)
+                    $next.addClass('active');
+                    $active.appendTo('#slider');
+        			$active.removeClass('active');
+        }, 4000);
+
+    });
 	function slideSwitch() {
         var $active = $('div#desImage IMG.active');
         var $next = $active.next();    

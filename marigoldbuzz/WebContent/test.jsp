@@ -1,9 +1,14 @@
 <%@include file="pageheader.jsp" %>
 <body><!--  reference: http://www.codeproject.com/Articles/762201/Adjusting-your-websites-to-fit-all-types-of-resolu -->
-        <div id="slideshow">
+        <!--  div id="slideshow">
                             <div><img src="Images/tajmahal.jpg"/></div>
                             <div><img src="Images/goldentemple.jpg"/></div>
                             <div><img src="Images/foodspices.jpg"/></div>
+        </div -->
+        <div id="slider">
+  							<img src="Images/tajmahal.jpg" class="active"/>
+                            <img src="Images/goldentemple.jpg"/>
+                            <img src="Images/foodspices.jpg"/>
         </div>
 
     <div class="Container">
