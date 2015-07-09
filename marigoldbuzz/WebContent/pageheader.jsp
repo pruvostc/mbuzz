@@ -1,9 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+
+<% String contextPath = request.getContextPath(); %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="<%=contextPath %>/js/jquery-1.11.3.min.js"></script>
 	<script>
 	$(function () {
         $("#slideshow > div:gt(0)").hide();
@@ -53,7 +55,7 @@
     <meta name="google-site-verification" content="">
     <meta name="author" content="MarigoldBuzz developers">
     <meta name="copyright" content="MarigoldBuzz">
-    <link rel="shortcut icon" href="icons/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="<%=contextPath %>/icons/favicon.png" type="image/x-icon" />
     
     <!--[if IE]>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -61,19 +63,19 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 
-    <link href="css/IEStyleSheet.css" rel="stylesheet" />
+    <link href="<%=contextPath %>/css/IEStyleSheet.css" rel="stylesheet" />
     <![endif]-->
 
     <!--[if !IE]> -->
-        <link href="css/StyleSheet.css" rel="stylesheet" type="text/css" media="only screen" />
-        <link href="css/MobileStyleSheet.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px) , only screen and (-webkit-min-device-pixel-ratio: 2) , screen and (-webkit-device-pixel-ratio:1.5)" />
+        <link href="<%=contextPath %>/css/StyleSheet.css" rel="stylesheet" type="text/css" media="only screen" />
+        <link href="<%=contextPath %>/css/MobileStyleSheet.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px) , only screen and (-webkit-min-device-pixel-ratio: 2) , screen and (-webkit-device-pixel-ratio:1.5)" />
         <!-- <![endif]-->
 
     <!--[if IEMobile]> 
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 
-        <link href="css/MobileStyleSheet.css" rel="stylesheet" />
+        <link href="<%=contextPath %>/css/MobileStyleSheet.css" rel="stylesheet" />
     <![endif]-->
 
 </head>

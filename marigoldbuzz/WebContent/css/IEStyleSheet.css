@@ -131,11 +131,6 @@ footer {
     height: 150px;
 }
 
-#slideshow {
-    overflow:hidden;
-    width:800px;
-    height:254px;
-}
 #slider img {
 	margin-left: 0px;
     border: 2px solid #6d6d6d;

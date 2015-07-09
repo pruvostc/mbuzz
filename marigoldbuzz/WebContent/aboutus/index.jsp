@@ -1,14 +1,9 @@
-<%@include file="pageheader.jsp" %>
+<%@include file="../pageheader.jsp" %>
 <body><!--  reference: http://www.codeproject.com/Articles/762201/Adjusting-your-websites-to-fit-all-types-of-resolu -->
-        <!--  div id="slideshow">
-                            <div><img src="Images/tajmahal.jpg"/></div>
-                            <div><img src="Images/goldentemple.jpg"/></div>
-                            <div><img src="Images/foodspices.jpg"/></div>
-        </div -->
         <div id="slider">
-  							<img src="Images/tajmahal.jpg" class="active"/>
-                            <img src="Images/goldentemple.jpg"/>
-                            <img src="Images/foodspices.jpg"/>
+  							<img src="<%=contextPath%>/Images/tajmahal.jpg" class="active"/>
+                            <img src="<%=contextPath%>/Images/goldentemple.jpg"/>
+                            <img src="<%=contextPath%>/Images/foodspices.jpg"/>
         </div>
 
     <div class="Container">
@@ -18,7 +13,7 @@
        <div id="wrapper">
     <nav>
             <a id="navigation" href="#">Home</a>
-            <a id="navigation" href="#">About Us</a>
+            <a id="navigation" href="<%=contextPath%>/aboutus/">About Us</a>
             <a id="navigation" href="#">Prices</a>
             <a id="navigation" href="#">News</a>
             <a id="navigation" href="#">Testimonials</a>
@@ -31,9 +26,9 @@
                 <section class="main_articles">
                     <article class="siteDescription">
                         <div class="desImage">
-                            <img src="Images/tajmahal.jpg" style="position:absolute;" class="active" />
-                            <img src="Images/goldentemple.jpg" style="position:absolute;" />
-                            <img src="Images/foodspices.jpg" style="position:absolute;" />
+                            <img src="<%=contextPath%>/Images/tajmahal.jpg" style="position:absolute;" class="active" />
+                            <img src="<%=contextPath%>/Images/goldentemple.jpg" style="position:absolute;" />
+                            <img src="<%=contextPath%>/Images/foodspices.jpg" style="position:absolute;" />
                         </div>
                         <div class="des">
                             New web development technologies.
@@ -55,7 +50,7 @@
                 </div>
             </div>
             <footer>
-            <%@include file="pagefooter.jsp" %>
+            <%@include file="../pagefooter.jsp" %>
             </footer>
         </div>
 
