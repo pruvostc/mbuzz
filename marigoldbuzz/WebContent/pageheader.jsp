@@ -29,7 +29,7 @@
             $('#slider > div:first')
             		$active = $('div#slider img.active');
                     $active.hide();
-                    $next.fadeIn(1000);
+                    $next.fadeIn(2000);
                     $active.appendTo('#slider');
                     $active.removeClass('active');
                     $next.addClass('active');
@@ -44,7 +44,7 @@
         $active.removeClass('active');
     }
     $(function() {
-        setInterval( "slideSwitch()", 5000 );
+        setInterval( "slideSwitch()", 8000 );
     });
 	</script>
 	<link href="http://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css"/>
