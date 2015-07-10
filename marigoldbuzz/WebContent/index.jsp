@@ -3,11 +3,11 @@
         
 
     <div class="Container">
-            <header>
-                <div class="mblogo"><img src="<%=contextPath%>/Images/mb-logo.gif"/></div><span>MarygoldBuzz - Tours of India </span>
-             </header>
+       <header>
+                <div id="mblogo"><img class="mainlogo" src="<%=contextPath%>/Images/mb-logo.gif"/></div><span>MarygoldBuzz - Tours of India </span>
+       </header>
        <div id="wrapper">
-    <nav>
+    	<nav>
             <a id="navigation" href="<%=contextPath%>/">Home</a>
             <a id="navigation" href="<%=contextPath%>/aboutus/">About Us</a>
             <a id="navigation" href="<%=contextPath%>/prices/">Prices</a>
@@ -15,17 +15,18 @@
             <a id="navigation" href="<%=contextPath%>/testimonials/">Testimonials</a>
             <a id="navigation" href="<%=contextPath%>/gallery/">Gallery</a>
             <a id="navigation"href="<%=contextPath%>/contactus/" >Contact Us</a>
-    </nav>
-            </div><!--end wrapper-->
+    	</nav>
+       </div><!--end wrapper-->
 
-            <div class="content">
-                <section class="main_articles">
-                    <article class="siteDescription">
-                        <div id="slider">
+       <div class="content">
+          <section class="main_articles">
+             <article class="siteDescription">
+          <div id="slider">
   			<img src="<%=contextPath%>/Images/tajmahal.jpg" class="active"/>
             <img src="<%=contextPath%>/Images/goldentemple.jpg"/>
             <img src="<%=contextPath%>/Images/foodspices.jpg"/>
-        </div><div class="des">
+          </div>
+          <div class="des">
                             Lorem ipsum dolor sit amet, id eam tritani dolores reprimique, nec no timeam ornatus copiosae, vis laoreet nonumes ad. An nam aperiam officiis, et noster invenire vis. Sed option delenit intellegam ut, no ornatus consequat eos. Sea brute perfecto intellegat ut, ei nulla nominati convenire usu. Prima detracto vim et, labores quaerendum per ad.
 
 Libris ceteros id duo. Cu vim unum quas error. Sit odio admodum accusamus eu, habemus corpora appetere vim ei, autem omnesque an mei. Ut malorum instructior vis, pri quot fugit ei, eu quod intellegam honestatis vis.

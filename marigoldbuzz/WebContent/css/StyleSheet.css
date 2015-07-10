@@ -10,7 +10,16 @@ body, html {
     min-width: 500px;
     margin: auto;
 }
-
+#mblogo {
+    	float: left;
+    	width: 120px;
+    	height: 120px;
+    	background-color: #ffffff;
+    }
+img.mainlogo{
+	width: 120px;
+	height: 120px;
+}
 header {
     width: 100%;
     height: 120px;
@@ -20,6 +29,7 @@ header {
 
 header span {
         color: #fff;
+        background-color: #ff0000;
         font-size: 30px;
         padding-left: 20px;
     }
