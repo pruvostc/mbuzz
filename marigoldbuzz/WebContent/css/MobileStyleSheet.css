@@ -64,11 +64,6 @@ body, html {
         margin:auto;
     }
 
-	.v_bar {
-	    display: none;
-        visibility: hidden;
-	}
-
     .side_article {
         display: none;
         visibility: hidden;

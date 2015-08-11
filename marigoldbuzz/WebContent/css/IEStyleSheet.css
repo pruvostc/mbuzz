@@ -116,13 +116,6 @@ footer {
     margin-left: 10px;
 }
 
-.v_bar {
-    width: 5%;
-    float: right;
-    height: 600px;
-    border-left: 1px dotted #6d6d6d;
-}
-
 .side_article {
     width: 20%;
     float: right;

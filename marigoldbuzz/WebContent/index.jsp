@@ -39,9 +39,6 @@ Et fabellas laboramus tincidunt vim. Ea error eirmod mediocritatem cum, putent n
                         </div>
                     </article>
                 </section>
-
-				<div class="v_bar">aaa
-				</div>
 				
                 <div class="side_article">
                     <div class="ads">
