@@ -21,16 +21,16 @@
 
     });
 	$(function () {
-        $("#slider > img:gt(0)").hide();
+        $("#diapos > img:gt(0)").hide();
 		 
         setInterval(function () {  	
-        	var $active = $('div#slider img.active');
+        	var $active = $('div#diapos img.active');
     		var $next = $active.next();
-            $('#slider > div:first')
-            		$active = $('div#slider img.active');
+            $('#diapos > div:first')
+            		$active = $('div#diapos img.active');
                     $active.hide();
                     $next.fadeIn(2000);
-                    $active.appendTo('#slider');
+                    $active.appendTo('#diapos');
                     $active.removeClass('active');
                     $next.addClass('active');
         			

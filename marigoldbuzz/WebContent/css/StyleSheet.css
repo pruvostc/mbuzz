@@ -10,7 +10,7 @@
 body, html {
     margin: 0px;
     padding: 0px;
-    background-color: #ededed;
+    background-color: #ffffff;
     font-family: 'Trebuchet MS';
 }
 
@@ -33,30 +33,43 @@ header {
     width: 100%;
     height: 120px;
     line-height: 120px;
-    background-color: #313131;
+    background-color: #ffffff;
 }
-
-header span {
-        color: #fff;
-        background-color: #ff0000;
-        font-size: 30px;
-        padding-left: 20px;
-    }
-
-nav {
-    width: 100%;
-    height: 40px;
-    background-color: #ff6a00;
-	margin:0px auto;
+#marigold {
+	position: absolute;
+	top: 60px;
+    left: 80px;
+	font-family: 'Arial', sans-serif;
+    margin: 0px 18px !important;
+    padding: 0;
+    font-size: 2.1em;
+    text-shadow: rgb(202, 202, 202) 4px 4px 5px;
+    z-index: 9999;
+}
+a.mgb{
+	text-decoration: none;
+	color:#dd0000;
+	display:inline-block;
+	text-shadow: 4px 4px 6px #FFF;	
+}
+a.mgb:hover {
+	color:#ff0000;
+}
+img#frontimage {
+	width: 100%;
 }
 #wrapper{
-    float: right;
     position:relative;
     width:100%;
 	margin:0 auto;
 	margin-top:0px;
 }
-
+nav {
+    float: right;
+    height: 120px;
+    background-color: #ffffff;
+	margin:0px auto;
+}
 #navigation {
     font-family: 'Tangerine', serif; 
     font-size: 36px;
@@ -69,7 +82,7 @@ a#navigation li {
 	display:inline;
     font-family: 'Tangerine', serif;
     text-shadow: 4px 4px 4px #aaa;
-	font-size:36px;
+	font-size:24px;
 	margin:0;
 	padding:0;
 	float:left;
@@ -78,15 +91,11 @@ a#navigation li {
 	border-bottom:1px solid #fafafa;
 }
 a#navigation {
-    padding:10px 10px;
+    padding:4px 15px;
 	color:#000000;
 	text-shadow:4px 4px 4px #aaa;
 	text-decoration:none;
 	display:inline-block;
-	border-right:1px solid #fff;
-	border-left:1px solid #fafafa;
-	border-top:1px solid #fff;
-	background: #ffffff;	
 }
 
 a#navigation:hover { // link-URL background when hovering links
@@ -99,27 +108,62 @@ a#navigation:hover { // link-URL background when hovering links
     width: 100%;
     height: 700px;
     padding: 10px 0px;
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
+/*-- footer style starts --*/
 footer {
+    font-family: 'Arial', sans-serif;
+    font-size: small;
     width: 100%;
-    height: 80px;
     background-color: #808080;
     margin-bottom: 20px;
+    float: left;
+    text-align: left;
+    color: white;
 }
+footer a{
+	color:#dddddd;
+	text-shadow:4px 4px 4px #aaa;
+	text-decoration:none;
+	display:inline-block;
+}
+
+footer a:hover { // link-URL background when hovering links
+	background:#eeeeee;
+    text-shadow:4px 4px 4px #313131;
+	color:#FFFFFF;
+}
+.foot-elem {
+	colour: #000000;
+	width: 33.3%;
+    float: left;
+    text-align: center;
+}
+.foot-elem ul {
+	list-style-type: none;
+}
+.foot-elem li#first {
+	font-size: 1.6em;
+    padding-bottom: 5px;
+}
+#footer-legal {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px
+}
+/*-- footer style ends --*/
 
 .main_articles {
     width: 70%;
     float: left;
-    height: 650px;
     margin-left: 10px;
 }
 
 .side_article {
     width: 20%;
     float: right;
-    height: 600px;
     border-left: 1px dotted #6d6d6d;
 }
 
@@ -132,8 +176,28 @@ footer {
     flex-align:start;
     width: 95%;
 }
-
-#slider img {
+.welcome {
+	float: left;
+	width: 100%;
+}
+.welcome h3 {
+font-family: 'Arial', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  color: #ff6857;
+  text-transform: capitalize;
+}
+.welcome p {
+    font-size: 1.0em;
+    text-align: center;
+    border-style: dotted;
+    border-width: thin;
+    color: #909090;
+    width: 100%;
+    margin: 1em auto 2em;
+    padding: 25px 50px;
+}
+#diapos img {
 	float:left;
 	margin-left: 0px;
     border: 2px solid #6d6d6d;
@@ -173,7 +237,6 @@ footer {
     width: 90%;
     margin: auto;
     margin-top: 3px;
-    height: 150px;
     text-align: center;
     padding-top: 3px;
     background-color: #ffffff;
@@ -181,6 +244,168 @@ footer {
 img.advert {
 	width: 186px;
 	height: 124px;
-
 	}
 }
+
+.textcontainer:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+/*--/header--*/
+.banner {
+  background: url('../india/Images/frontimage4.jpg') no-repeat -0px 0;
+  width: 100%;
+  background-size: cover;
+}
+.banner-info {
+  float: right;
+     margin: 12em 0em 0 0;
+}
+.banner-info h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 4em;
+  color: #fff;
+  font-weight: 900;
+  text-align: right;
+}
+.banner-info p {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.1em;
+  color: #EAEAEA;
+  width: 69%;
+  padding-top: 14px;
+  text-align: right;
+  float: right;
+  line-height: 1.8em;
+  font-weight: 400;
+}
+
+/*--index-banner-slider--*/
+/*----*/
+.slider {
+	position: relative;
+	text-align: center;
+	padding:6.5% 0;
+	padding-right: 100px;
+}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+.rslides h3{
+color: #fff;
+  font-size: 2em;
+  width: 87%;
+  margin: 0 auto;
+  height: 100px;
+  line-height: 1.7em;
+}
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+.callbacks_tabs a:after {
+	content: "\f111";
+	font-size: 0;
+	font-family: FontAwesome;
+	visibility: visible;
+	display: block;
+	height: 8px;
+	width: 8px;
+	display: inline-block;
+	border: 2px solid #fff;
+	border-radius:50%;
+	background:#fff;
+}
+.callbacks_here a:after{
+	border: 2px solid #FFF;
+	background:transparent;
+}
+.callbacks_tabs a{
+	visibility:hidden;
+}
+.callbacks_tabs li{
+	display:inline-block;
+}
+ul.callbacks_tabs.callbacks1_tabs {
+	position: absolute;
+	bottom: 55px;
+	z-index: 999;
+	left: 48%;
+	display:none;
+}
+.callbacks_nav {
+position: absolute;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  top: 57%;
+  left: 16%;
+  opacity: 0.7;
+  z-index: 3;
+  text-indent: -9999px;
+  overflow: hidden;
+  text-decoration: none;
+  height: 61px;
+  width: 38px;
+  background: transparent url("../india/Images/gif.png") no-repeat 0px 0px;
+  margin-top: -66px;
+  }
+.callbacks_nav.next {
+  left: auto;
+  background-position: right top;
+  right: 15%;
+  top: 57%;
+ }
+/*--/index-banner-slider--*/
+
+/*-- offer board --*/
+.row-wrapper {
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+.offerboard {
+	width:100%;
+}
+.offer {
+	width: 49%;
+	float: left;
+	position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    overflow: hidden;
+    padding-left: 5px;
+}
+.offer-img {
+	width: 100%;
+	height: 100%;
+}
+.offer h3 {
+	font-family: 'Arial', sans-serif;
+    margin: 0px 10px !important;
+    padding: 0;
+    font-size: 1.6em;
+    text-shadow: rgb(31, 31, 31) 3px 3px 5px;
+    text-align: left;
+}
+.offer li {
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+    font-size: .9em;
+    text-shadow: none;
+    text-align: left;
+    text-decoration: underline;
+    color: #1E00FF;
+}
+/*-- offer board --*/
