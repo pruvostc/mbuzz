@@ -40,12 +40,10 @@
 				
                 <div class="side_article">
                     <div class="ads">
-                        <img class="advert" src="<%=baseURL%>/Images/documents.jpg"/>
+                        <a href="<%=baseURL%>/Images/India_topo_big.jpg" target="_blank"><img class="advert" alt="Topography of India - Wikipedia" src="<%=baseURL%>/Images/topo-india.jpg"/></a>
                     </div>
                     <div class="ads">
-                        Passeports / Visas<br>
-                        Tips for your journey<br>
-                        Insurances
+                        More about India on <a href="https://en.wikipedia.org/wiki/India">Wikipedia...</a>
                     </div>
                 </div>
             </div>

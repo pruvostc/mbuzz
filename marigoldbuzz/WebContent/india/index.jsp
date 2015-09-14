@@ -89,10 +89,10 @@
                 <div class="offerboard">
                     <div class="row-wrapper">
 	            		<div class="offer"><img class="offer-img" src="<%=baseURL%>/Images/frontimage.jpg"/></div>
-						<div class="offer"><img class="offer-img" src="<%=baseURL%>/Images/frontimage.jpg"/></div>
+						<div class="offer"><img class="offer-img" src="https://utazom.com/sites/default/files/utazas-korutazas/37728/india-arany-haromszog_9.jpg"/></div>
 					</div>
-					<div class="row-wrapper">
-	                	<div class="offer"><img class="offer-img" src="<%=baseURL%>/Images/frontimage.jpg"/></div>
+					<div class="row-wrapper" style="padding-bottom: 20px;">
+	                	<div class="offer"><img class="offer-img" src="http://lh4.ggpht.com/-B9qEtrQvNgk/VQ1zjZIlybI/AAAAAAABAhc/93YhooT_uiQ/kumbhalgarh-fort-4%25255B2%25255D.jpg?imgmax=800"/></div>
 						<div class="offer"><h3>and much more...</h3><ul><li>Himachal Pradesh</li><li>Rajasthan</li><li>Delhi and surrounding</li><li>etc...</li></ul></div>
                 	</div>
                 </div>

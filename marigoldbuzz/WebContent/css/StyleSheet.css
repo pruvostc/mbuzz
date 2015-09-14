@@ -15,6 +15,7 @@ body, html {
 }
 
 .Container {
+    float:left;
     width: 100%;
     min-width: 500px;
     margin: auto;
@@ -118,6 +119,7 @@ footer {
     width: 100%;
     background-color: #808080;
     margin-bottom: 20px;
+    padding-top: 20px;
     float: left;
     text-align: left;
     color: white;
@@ -243,7 +245,6 @@ font-family: 'Arial', sans-serif;
 } 
 img.advert {
 	width: 186px;
-	height: 124px;
 	}
 }
 
@@ -409,3 +410,26 @@ position: absolute;
     color: #1E00FF;
 }
 /*-- offer board --*/
+.form-area {
+	width: 50%;
+}
+.round-corners {
+	border: 1px solid;
+	border-bottom-width: 1px solid;
+	border-left-width: 1px solid;
+	border-right-width: 1px solid;
+	border-top-width: 1px solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-style: solid;
+	border-color: 153, 153, 153, 1;
+	border-radius: 0.3em;
+	-webkit-border-radius: 0.3em
+	-moz-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-ms-border-radius: 0.3em;
+	padding: 20px;
+	background-image: url("../india/Images/frontimage.jpg");
+    background-size: cover;
+}

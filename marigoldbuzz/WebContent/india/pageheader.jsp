@@ -6,6 +6,7 @@
 <html lang="en">
 <head>
     <script src="<%=contextPath %>/js/jquery-1.11.3.min.js"></script>
+    <link href="<%=contextPath %>/css/bootstrap.min.css" rel="stylesheet" />
 	<script>
 	$(function () {
         $("#slideshow > div:gt(0)").hide();
