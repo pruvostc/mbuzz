@@ -1,4 +1,4 @@
-<%@include file="../pageheader.jsp" %>
+<%@include file="../india/pageheader.jsp" %>
 <% String baseURL = contextPath + "/india"; %>
 <body><!--  reference: http://www.codeproject.com/Articles/762201/Adjusting-your-websites-to-fit-all-types-of-resolu -->
         
@@ -42,7 +42,7 @@
                 </div>
             </div>
             <footer>
-            <%@include file="../pagefooter.jsp" %>
+            <%@include file="../india/pagefooter.jsp" %>
             </footer>
         </div>
 

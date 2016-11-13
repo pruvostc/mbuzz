@@ -9,8 +9,7 @@
 <div class="foot-elem"><ul>
 <li id="first">Support</li>
 <li><a href="<%=baseURL%>/contactus/">Contact</a></li>
-<li>Windsor Crescent,
-Oxford, OX3 0SQ, Oxfordshire<br/>
+<li><br/>
 +44 781-777-6730<br/>
 www.marigoldbuzz.com</li>
 </uL></div>
