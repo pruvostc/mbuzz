@@ -1,6 +1,6 @@
 <%@include file="pageheader.jsp" %>
 <% String baseURL = contextPath + "/india"; %>
-<body><!--  reference: http://www.codeproject.com/Articles/762201/Adjusting-your-websites-to-fit-all-types-of-resolu -->
+<body>
         
 
    
