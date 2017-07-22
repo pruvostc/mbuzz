@@ -16,7 +16,7 @@ width: 760px;
 <title>My Title</title>
 </head>
 <body>
-<%@include file="../india//pageheader.jsp" %>
+<%@include file="../india/pageheader.jsp" %>
 <% java.util.Date d = new java.util.Date(); %>
 <h1>
 Today's date is <%= d.toString() %> and this jsp page worked!
